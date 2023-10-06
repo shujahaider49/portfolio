@@ -6,28 +6,6 @@ import { Fade } from 'react-reveal';
 
 
 const Skills = () => {
-  const skills = [
-    {
-      logo: "logo-html5",
-      level: "Advance",
-      count: 86,
-    },
-    {
-      logo: "logo-css3",
-      level: "Expect",
-      count: 90,
-    },
-    {
-      logo: "logo-javascript",
-      level: "Beginner",
-      count: 40,
-    },
-    {
-      logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
-    },
-  ];
   return (
     <>
     <section id="skills" className="py-10 bg-gray-800 relative">

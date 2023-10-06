@@ -21,8 +21,8 @@ const Project = () => {
         title: "Admin Dashboard",
         desc: "Empower your business with my React.js-driven Admin Dashboard! Seamlessly manage and visualize critical data, track key performance indicators, and make informed decisions with ease.",
         img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        href: "javascript:void(0)"
-    },
+        // href: "javascript:void(0)"
+    },  
    
 ]
 

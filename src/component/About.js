@@ -5,11 +5,6 @@ import { Fade } from 'react-reveal';
 
 
 const About = () => {
-  const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
-  ];
   return (
     <>
     <Fade right >
