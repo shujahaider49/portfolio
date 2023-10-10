@@ -2,6 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import react from '../asset/hero-section-img.webp'
 import { Fade } from 'react-reveal';
+import Haider from '../asset/Haider__1_-removebg-preview.png'
 
 const Hero = () => {
   const social_media =[
@@ -16,10 +17,14 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
+      <Fade left>
+      <div className="flex-1 flex items-center justify-center h-full relative">
+  <img src={react} alt="" className="md:w-11/12 h-full object-cover blur-3xl absolute inset-0 z-0" />
+  <img src={Haider} alt="" className="md:w-11/12 h-full object-cover relative z-10 rounded-b-full" />
+</div>
+</Fade>
+
       <Fade right>
-      <div className="flex-1 flex items-center justify-center h-full">
-        <img src={react} alt="" className="md:w-11/12 h-full object-cover blur-3xl" />
-      </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
